@@ -1,6 +1,11 @@
+
+### 08-07更新说明
+pdd现在对于IP要求越来越高了感觉，最新的请求两次就直接403了，不知道是我的代码问题还是pdd问题，如果你知道，欢迎交流
+
+
 ### 文件说明
-1. **get_anticontent.js**: 获取拼多多搜索页下一页的加密参数 anticontent
-2. **pinduouduo.py**: 通过python执行上面的 js 获取拼多多的搜索页以及下一页的数据
+1. **get_anticontent.js**: 获取pdd搜索页下一页的加密参数 anticontent
+2. **pinduouduo.py**: 通过python执行上面的 js 获取pdd的搜索页以及下一页的数据
 
 #### get_anticontent.js 参数说明
 只需要传一个 搜索页的 url 即可，比如 **http://yangkeduo.com/search_result.html?search_key=%E6%83%85%E4%BE%A3%E8%A1%A3%E6%9C%8D**

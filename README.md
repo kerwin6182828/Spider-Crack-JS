@@ -19,7 +19,7 @@
 2019-3-18日更新努比亚论坛的cookie 获取 acw_sc__v2 值 
 >破解思路详情点击→ [努比亚论坛的cookie 获取 acw_sc__v2 值](https://mp.weixin.qq.com/s/MLjyLP-z8OYBgg48gj-pDA)
 
-2019-3-18日更新pdd的 anti_content 加密参数
+2019-08-07日更新pdd的 anti_content 加密参数
 >破解思路详情点击→ [拼多多的 anti_content 加密参数](https://sergiojune.com/2019/03/26/pinduoduo_anti_content/)
 
 2019-3-11日更新某瓣读书搜索页的window.__DATA__的解密
