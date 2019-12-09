@@ -217,9 +217,9 @@ function _0x4ba351() {
     }
 }
 function _0x3966d3(_0x8517d0, _0xae9512, _0x1e1c09) {
-    var _0x126b58 = "hide yq-dropdown-menu-media-msg";  // 这个需要改变可能
+    var _0x126b58 = "yq-navbar-menuIcon-24 yq-head-apps";  // 这个需要改变可能
     _0x126b58 = _0x126b58 + '/' + Date['now']()[_0x4f3f('0x5b', 'VMDb')](0x10) + '/' +
-        152[_0x4f3f('0x5b', 'VMDb')](0x10) + '/' + _0x4ba351();
+        370[_0x4f3f('0x5b', 'VMDb')](0x10) + '/' + _0x4ba351();
     _0x9ff66b(_0x126b58, _0x1e1c09);
     _0x126b58 = _0x2ec18e[_0x4f3f('0x5d', 'H0Sy')](_0x3c4889, _0xd74c71(_0x126b58));
     _0x472ff2[0x0] = _0x126b58;
@@ -245,4 +245,4 @@ function get_cookie(data) {
     return _0x3966d3(1, 1, _0x1a395d(21));  // 一个长度21，好像是固定的
 }
 
-console.log(get_cookie('{"guid":"","data":[{"num":"2781356000156"}],"timeZoneOffset":-480}'));  // 调用函数
+console.log(get_cookie('{"data":[{"num":"2802016923","fc":"100010","sc":0}],"guid":"","timeZoneOffset":-480}'));  // 调用函数
