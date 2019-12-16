@@ -10,7 +10,7 @@
 ```
 document.querySelectorAll('[class*=yq-]')[12].className
 ```
-这个应该就是那个输入框的className,现在他的元素id是jcHeaderInput，以后可能变化。
+这个应该是埋点元素的className,现在他的元素id是jcHeaderInput，以后可能变化。
 
 - 第二处
 

@@ -1,15 +1,21 @@
 import requests
 import json
 import execjs
+import re
 
 headers = {
     'cookie': 'Last-Event-ID=65736c61662f38392f38356666393765643936312f67736d2d616964656d2d756e656d2d6e776f64706f72642d71792065646968112246b0fd1004bdb6f4',
     'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
 }
 
+res = requests.get('https://t.17track.net/zh-cn')
+input_class_name = re.findall(r'<li id="jcHeaderInput" class="(.+?)">',res.text)[0]
 
+print('input class name is',input_class_name)
 with open('17track.js', 'r', encoding='utf-8') as f:
     track_js = f.read()
+
+track_js = track_js.replace('#####',input_class_name)
 
 data = '{"data":[{"num":"2802016923","fc":"100010","sc":0}],"guid":"","timeZoneOffset":-480}'
 
