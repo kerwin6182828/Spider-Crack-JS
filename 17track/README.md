@@ -1,5 +1,22 @@
 ### 网站url：https://www.17track.net/zh-cn
 
+
+### 更新参数
+
+有同学反馈失效了，调试了一下，有些参数可能隔一段时间就会变化，这些可能需要每天单独去获取，然后写到js里面，这里就不去写这个获取任务了。说一下需要更新的地方，可能是我最后一次更新，因为毕竟参数在变化，随时可能失效。
+
+- 第一处
+
+```
+document.querySelectorAll('[class*=yq-]')[12].className
+```
+这个应该就是那个输入框的className,现在他的元素id是jcHeaderInput，以后可能变化。
+
+- 第二处
+
+_0x4ba351函数，添加了else处理。
+
+
 ### 文件相关作用
 * 17track.js：获取Last-Event-ID这个cookie的值
 * track.py: 使用python来运行获取运单详情
@@ -8,3 +25,6 @@
 
 #### 扫码关注公众号查看更多文章
 ![公众号日常学python](https://user-gold-cdn.xitu.io/2019/2/22/169130346d926dc7?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
+
+
+
